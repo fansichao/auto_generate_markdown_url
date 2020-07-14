@@ -45,16 +45,28 @@ python .\dirtree.py --local_path=demo --save_path=/demo
     |    |----demo11.txt
     |    |----demo12.txt
     |    |----readme.md
-    |----A2\
     |----demo01.txt
     |----demo02.txt
     |----readme.md
-
 ```
 
 ## 目录 MarkDown 链接效果
 
 目录 MarkDown 链接，效果如下
+
+```bash
+- [demo](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo)
+  - [A1](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo/A1)
+    - [A11](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo/A11)
+      - [demo110.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/A11/demo110.txt)
+      - [readme.md](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/A11/readme.md)
+    - [demo11.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/demo11.txt)
+    - [demo12.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/demo12.txt)
+    - [readme.md](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/readme.md)
+  - [demo01.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/demo01.txt)
+  - [demo02.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/demo02.txt)
+  - [readme.md](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/readme.md)
+``` 
 
 - [demo](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo)
   - [A1](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo/A1)
@@ -64,7 +76,6 @@ python .\dirtree.py --local_path=demo --save_path=/demo
     - [demo11.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/demo11.txt)
     - [demo12.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/demo12.txt)
     - [readme.md](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/A1/readme.md)
-  - [A2](https://github.com/fansichao/auto_generate_markdown_url/tree/master/demo/A2)
   - [demo01.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/demo01.txt)
   - [demo02.txt](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/demo02.txt)
   - [readme.md](https://github.com/fansichao/auto_generate_markdown_url/blob/master/demo/readme.md)
